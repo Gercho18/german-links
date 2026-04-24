@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // \"\"' | { read -r f; if [[ \"$f\" == \"/Users/germangnz/Documents/Vibecoding/Landing All Links Ger/\"* ]]; then cd \"/Users/germangnz/Documents/Vibecoding/Landing All Links Ger\" && git add -A && git commit -m \"auto: claude update\" 2>/dev/null; git push origin main 2>/dev/null; fi; } || true",
+            "async": true,
+            "statusMessage": "Subiendo cambios a GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}
