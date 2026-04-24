@@ -95,21 +95,15 @@ export default function Home() {
     >
       <div className="w-full max-w-sm flex flex-col items-center gap-5">
 
-        {/* Avatar */}
-        <div className="fade-up delay-1">
+        {/* Avatar with spinning ring */}
+        <div className="avatar-wrapper fade-up delay-1">
+          <div className="avatar-glow" />
+          <div className="avatar-ring-bg" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://i.ibb.co/7NR73R0d/Ger-Nuevos-3.jpg"
             alt="Germán González"
-            style={{
-              width: 96,
-              height: 96,
-              borderRadius: "50%",
-              objectFit: "cover",
-              border: "2.5px solid var(--gold-border)",
-              boxShadow: "0 0 0 6px var(--gold-soft)",
-              display: "block",
-            }}
+            className="avatar-img"
           />
         </div>
 
