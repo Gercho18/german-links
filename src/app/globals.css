@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f9f8f6;
-  --surface: #ffffff;
-  --surface-2: #f3f1ee;
-  --border: #e8e4df;
-  --text-primary: #1a1714;
-  --text-secondary: #6b6560;
-  --text-muted: #a09990;
-  --accent: #b8a99a;
-  --accent-soft: #ede8e3;
-  --purple: #9b8ecb;
-  --purple-soft: #f0edf8;
-  --purple-border: #d4cce8;
+  --bg: #faf8ed;
+  --surface: #fffef8;
+  --surface-2: #f4f0d8;
+  --border: #e2d8a0;
+  --text-primary: #1a1709;
+  --text-secondary: #5c5525;
+  --text-muted: #8c8450;
+  --accent: #c0a020;
+  --accent-soft: #f5efc8;
+  --gold: #b89620;
+  --gold-soft: #faf3cc;
+  --gold-border: #d4c050;
 }
 
 * {
@@ -50,6 +50,7 @@ body {
 .delay-6 { animation-delay: 0.3s; opacity: 0; }
 .delay-7 { animation-delay: 0.35s; opacity: 0; }
 .delay-8 { animation-delay: 0.4s; opacity: 0; }
+.delay-9 { animation-delay: 0.45s; opacity: 0; }
 
 /* Link cards */
 .link-card {
@@ -72,13 +73,13 @@ body {
 }
 
 .link-card.featured {
-  background: var(--purple-soft);
-  border-color: var(--purple-border);
+  background: var(--gold-soft);
+  border-color: var(--gold-border);
 }
 
 .link-card.featured:hover {
-  box-shadow: 0 8px 24px rgba(155, 142, 203, 0.18);
-  border-color: var(--purple);
+  box-shadow: 0 8px 24px rgba(184, 150, 32, 0.2);
+  border-color: var(--gold);
 }
 
 /* Social icons */
@@ -97,8 +98,8 @@ body {
 }
 
 .social-btn:hover {
-  background: var(--purple-soft);
-  border-color: var(--purple-border);
-  color: var(--purple);
+  background: var(--gold-soft);
+  border-color: var(--gold-border);
+  color: var(--gold);
   transform: translateY(-2px);
 }
