@@ -7,7 +7,7 @@ const links = [
   },
   {
     label: "Portfolio",
-    href: "https://www.behance.net/germangonzalez",
+    href: "https://www.behance.net/germangnz",
     description: "Trabajos seleccionados",
   },
   {
@@ -18,11 +18,11 @@ const links = [
   {
     label: "Servicios de diseño",
     href: "mailto:german.gonzalez@humand.co",
-    description: "Branding · Identidad · UI",
+    description: "Branding · Identidad · Motion",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/germangonzalez",
+    href: "https://www.linkedin.com/in/germangnz/",
     description: "Germán González",
   },
 ];
@@ -40,21 +40,32 @@ const socials = [
     ),
   },
   {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/germangnz/",
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+        <rect x="2" y="9" width="4" height="12" />
+        <circle cx="4" cy="4" r="2" />
+      </svg>
+    ),
+  },
+  {
+    label: "Behance",
+    href: "https://www.behance.net/germangnz",
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M7.443 5.35c.638 0 1.234.05 1.77.198.537.099.994.297 1.37.545.377.248.672.595.868 1.04.198.446.297.99.297 1.584 0 .693-.148 1.287-.495 1.733-.297.446-.742.843-1.337 1.14.792.248 1.387.694 1.783 1.338.396.644.594 1.387.594 2.228 0 .693-.148 1.288-.396 1.783-.297.495-.643.94-1.139 1.238-.446.347-.99.594-1.585.743-.594.148-1.238.248-1.882.248H0V5.35h7.443zm-.397 5.55c.495 0 .94-.148 1.287-.396.347-.248.495-.693.495-1.238 0-.297-.05-.545-.148-.743-.099-.198-.248-.347-.446-.495-.198-.099-.396-.198-.644-.248-.247-.05-.495-.05-.742-.05H3.21v3.17h3.836zm.198 5.798c.297 0 .594-.05.891-.099.297-.099.545-.198.743-.347.198-.148.396-.347.495-.594.148-.248.198-.545.198-.94 0-.742-.198-1.287-.644-1.634-.446-.347-.99-.495-1.684-.495H3.21v4.11h4.034zm8.462-1.337c.347.347.94.544 1.634.544.495 0 .94-.148 1.337-.396.347-.248.594-.545.693-.842h2.525c-.396 1.238-1.04 2.129-1.832 2.674-.792.545-1.783.842-2.921.842-.792 0-1.486-.148-2.129-.396-.644-.248-1.188-.644-1.634-1.09-.446-.495-.792-1.04-1.04-1.683-.248-.644-.347-1.387-.347-2.18 0-.742.099-1.485.347-2.129.248-.643.594-1.237 1.04-1.732.446-.496.99-.842 1.634-1.139.644-.248 1.337-.396 2.129-.396.841 0 1.584.198 2.178.544.644.347 1.14.842 1.535 1.436.396.594.694 1.238.842 1.981.099.743.148 1.486.099 2.228h-7.52c0 .693.297 1.387.644 1.733zM8.99 7.26h5.254v1.139H8.99V7.26zm7.84 3.566c-.297-.347-.842-.544-1.436-.544-.396 0-.742.099-1.04.248-.297.148-.495.347-.643.545-.148.247-.248.495-.297.742-.05.248-.05.446-.05.644h4.258c-.099-.742-.347-1.238-.792-1.635z" />
+      </svg>
+    ),
+  },
+  {
     label: "Email",
     href: "mailto:german.gonzalez@humand.co",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="4" width="20" height="16" rx="2" />
         <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-      </svg>
-    ),
-  },
-  {
-    label: "Behance",
-    href: "https://www.behance.net/germangonzalez",
-    icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M7.443 5.35c.638 0 1.234.05 1.77.198.537.099.994.297 1.37.545.377.248.672.595.868 1.04.198.446.297.99.297 1.584 0 .693-.148 1.287-.495 1.733-.297.446-.742.843-1.337 1.14.792.248 1.387.694 1.783 1.338.396.644.594 1.387.594 2.228 0 .693-.148 1.288-.396 1.783-.297.495-.643.94-1.139 1.238-.446.347-.99.594-1.585.743-.594.148-1.238.248-1.882.248H0V5.35h7.443zm-.397 5.55c.495 0 .94-.148 1.287-.396.347-.248.495-.693.495-1.238 0-.297-.05-.545-.148-.743-.099-.198-.248-.347-.446-.495-.198-.099-.396-.198-.644-.248-.247-.05-.495-.05-.742-.05H3.21v3.17h3.836zm.198 5.798c.297 0 .594-.05.891-.099.297-.099.545-.198.743-.347.198-.148.396-.347.495-.594.148-.248.198-.545.198-.94 0-.742-.198-1.287-.644-1.634-.446-.347-.99-.495-1.684-.495H3.21v4.11h4.034zm8.462-1.337c.347.347.94.544 1.634.544.495 0 .94-.148 1.337-.396.347-.248.594-.545.693-.842h2.525c-.396 1.238-1.04 2.129-1.832 2.674-.792.545-1.783.842-2.921.842-.792 0-1.486-.148-2.129-.396-.644-.248-1.188-.644-1.634-1.09-.446-.495-.792-1.04-1.04-1.683-.248-.644-.347-1.387-.347-2.18 0-.742.099-1.485.347-2.129.248-.643.594-1.237 1.04-1.732.446-.496.99-.842 1.634-1.139.644-.248 1.337-.396 2.129-.396.841 0 1.584.198 2.178.544.644.347 1.14.842 1.535 1.436.396.594.694 1.238.842 1.981.099.743.148 1.486.099 2.228h-7.52c0 .693.297 1.387.644 1.733zM8.99 7.26h5.254v1.139H8.99V7.26zm7.84 3.566c-.297-.347-.842-.544-1.436-.544-.396 0-.742.099-1.04.248-.297.148-.495.347-.643.545-.148.247-.248.495-.297.742-.05.248-.05.446-.05.644h4.258c-.099-.742-.347-1.238-.792-1.635z" />
       </svg>
     ),
   },
@@ -86,20 +97,20 @@ export default function Home() {
 
         {/* Avatar */}
         <div className="fade-up delay-1">
-          <div style={{
-            width: 88,
-            height: 88,
-            borderRadius: "50%",
-            background: "linear-gradient(135deg, var(--purple-soft) 0%, var(--accent-soft) 100%)",
-            border: "2.5px solid var(--purple-border)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: 36,
-            boxShadow: "0 0 0 6px var(--purple-soft)",
-          }}>
-            ✦
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="https://i.ibb.co/7NR73R0d/Ger-Nuevos-3.jpg"
+            alt="Germán González"
+            style={{
+              width: 96,
+              height: 96,
+              borderRadius: "50%",
+              objectFit: "cover",
+              border: "2.5px solid var(--gold-border)",
+              boxShadow: "0 0 0 6px var(--gold-soft)",
+              display: "block",
+            }}
+          />
         </div>
 
         {/* Name & handle */}
@@ -132,10 +143,10 @@ export default function Home() {
             gap: 6,
             padding: "5px 14px",
             borderRadius: 999,
-            background: "var(--purple-soft)",
-            border: "1px solid var(--purple-border)",
+            background: "var(--gold-soft)",
+            border: "1px solid var(--gold-border)",
             fontSize: "0.78rem",
-            color: "var(--purple)",
+            color: "var(--gold)",
             fontWeight: 500,
             letterSpacing: "0.02em",
           }}>
@@ -144,13 +155,26 @@ export default function Home() {
           </span>
         </div>
 
+        {/* Bio */}
+        <p className="fade-up delay-4 text-center" style={{
+          fontSize: "0.82rem",
+          color: "var(--text-secondary)",
+          lineHeight: 1.65,
+          maxWidth: 300,
+        }}>
+          Diseñador gráfico en Humand — redes, eventos, newsletters y diseño con IA.
+          Como freelancer: branding, identidad visual, motion y video para marcas que
+          quieren comunicar con claridad y personalidad. Con foco en que cada diseño
+          cumpla una función, no solo que se vea lindo.
+        </p>
+
         {/* Divider */}
         <div
-          className="fade-up delay-4 w-full"
+          className="fade-up delay-5 w-full"
           style={{
             height: 1,
             background: "linear-gradient(90deg, transparent, var(--border), transparent)",
-            margin: "4px 0",
+            margin: "2px 0",
           }}
         />
 
@@ -162,26 +186,26 @@ export default function Home() {
               href={link.href}
               target={link.href.startsWith("http") ? "_blank" : undefined}
               rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className={`link-card${link.featured ? " featured" : ""} fade-up delay-${i + 4}`}
+              className={`link-card${link.featured ? " featured" : ""} fade-up delay-${i + 5}`}
             >
               <div>
                 <div style={{
                   fontSize: "0.9rem",
                   fontWeight: 500,
-                  color: link.featured ? "var(--purple)" : "var(--text-primary)",
+                  color: link.featured ? "var(--gold)" : "var(--text-primary)",
                   marginBottom: 2,
                 }}>
                   {link.label}
                 </div>
                 <div style={{
                   fontSize: "0.75rem",
-                  color: link.featured ? "var(--purple)" : "var(--text-muted)",
-                  opacity: 0.8,
+                  color: link.featured ? "var(--gold)" : "var(--text-muted)",
+                  opacity: 0.85,
                 }}>
                   {link.description}
                 </div>
               </div>
-              <span style={{ color: link.featured ? "var(--purple)" : "var(--text-muted)" }}>
+              <span style={{ color: link.featured ? "var(--gold)" : "var(--text-muted)" }}>
                 <ArrowIcon />
               </span>
             </a>
@@ -189,7 +213,7 @@ export default function Home() {
         </div>
 
         {/* Social icons */}
-        <div className="fade-up delay-8 flex items-center gap-4 mt-2">
+        <div className="fade-up delay-9 flex items-center gap-3 mt-2">
           {socials.map((social) => (
             <a
               key={social.href}
@@ -206,7 +230,7 @@ export default function Home() {
 
         {/* Footer */}
         <p
-          className="fade-up delay-8"
+          className="fade-up delay-9"
           style={{
             fontSize: "0.7rem",
             color: "var(--text-muted)",
